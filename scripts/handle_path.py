@@ -28,4 +28,6 @@ reporter_path = os.path.join(root_path, 'reports')
 str_time = time.strftime('%Y%m%d%H%M%S', time.localtime(time.time()))
 reports_path = os.path.join(reporter_path, str_time + '的报告.html')
 
+# 手机号生成yaml文件路径
+phone_yaml = os.path.join(config_path, 'phone_generate.yaml')
 

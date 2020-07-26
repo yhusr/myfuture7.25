@@ -1,0 +1,15 @@
+admin:
+  pwd: '12345678'
+  reg_name: admin
+  user_id: 2058732
+  user_phone: '13827954813'
+investor:
+  pwd: '12345678'
+  reg_name: investor
+  user_id: 2058734
+  user_phone: '13851960824'
+loan:
+  pwd: '12345678'
+  reg_name: loan
+  user_id: 2058736
+  user_phone: '13865139408'

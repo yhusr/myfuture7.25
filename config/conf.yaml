@@ -9,6 +9,7 @@ mysql:
   charset: utf8
   db: futureloan
   phone_sql: select * from member where mobile_phone=%s
+  user_id: select id from member where mobile_phone=%s
 
 api:
   load: http://api.lemonban.com/futureloan
