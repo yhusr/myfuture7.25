@@ -1,7 +1,6 @@
 import unittest
 from scripts.handle_path import case_path, reports_path
 from lib.HTMLTestRunnerNew import HTMLTestRunner
-import time
 
 
 class RunCase:

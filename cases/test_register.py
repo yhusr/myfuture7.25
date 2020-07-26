@@ -30,6 +30,10 @@ class HandleRegister(unittest.TestCase):
         msg = result.json()['msg']
         try:
             self.assertListEqual([case.expected, case.msg], [code, msg], msg=f"用例{title}测试完成")
+            if int(case.caseId) == 1:
+                response_phone = result.json()['data']['mobile_phone']
+                bl = self.hm.phone_exist_mysql(response_phone)
+                self.assertTrue(bl)
         except Exception as e:
             self.he.write_excel(int(case.caseId) + 1, 7, value="fail")
             self.he.write_excel(int(case.caseId) + 1, 8, value=result.text)
