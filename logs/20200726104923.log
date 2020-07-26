@@ -1,0 +1,15 @@
+2020-07-26 10:49:32,463 - oper - [test_register.py-->line:41] - INFO: 正确格式的数据注册成功
+2020-07-26 10:49:33,173 - oper - [test_register.py-->line:41] - INFO: 密码为空
+2020-07-26 10:49:34,932 - oper - [test_register.py-->line:41] - INFO: 密码少于8位
+2020-07-26 10:49:35,903 - oper - [test_register.py-->line:41] - INFO: 密码大于16位
+2020-07-26 10:49:37,193 - oper - [test_register.py-->line:41] - INFO: 手机号为空
+2020-07-26 10:49:38,073 - oper - [test_register.py-->line:41] - INFO: 手机号密码均为空
+2020-07-26 10:49:39,543 - oper - [test_register.py-->line:41] - INFO: 手机号输入为空格
+2020-07-26 10:49:40,773 - oper - [test_register.py-->line:36] - ERROR: Lists differ: [2, '无效的手机格式'] != [2, '密码格式为8到16位']
+
+First differing element 1:
+'无效的手机格式'
+'密码格式为8到16位'
+
+- [2, '无效的手机格式']
++ [2, '密码格式为8到16位'] : 用例手机号和密码均输入为空格测试完成

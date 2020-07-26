@@ -1,0 +1,16 @@
+excel:
+  excel_name: excelcases.xlsx
+
+mysql:
+  host: api.lemonban.com
+  user: future
+  password: '123456'
+  port: 3306
+  charset: utf8
+  db: futureloan
+  phone_sql: select * from member where mobile_phone=%s
+
+api:
+  load: http://api.lemonban.com/futureloan
+  register: /member/register
+  header: {'X-Lemonban-Media-Type': 'lemonban.v2'}
